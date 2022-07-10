@@ -36,7 +36,8 @@ func main() {
 
 	// ADD YOUR CODE BELOW
 
-	// ?
+	temp := "dark"
+	color = temp + " " + color
 
 	// UNCOMMENT THE CODE BELOW TO PRINT THE VARIABLE
 
