@@ -22,6 +22,8 @@ func main() {
 		version int
 	)
 
+	lang = "go"
+	version = 2
 	// ADD YOUR CODE BELOW
 
 	// DO NOT TOUCH THIS

@@ -8,6 +8,8 @@
 
 package main
 
+import "fmt"
+
 // ---------------------------------------------------------
 // EXERCISE: Make It Blue
 //
@@ -22,11 +24,12 @@ package main
 func main() {
 	// UNCOMMENT THE CODE BELOW:
 
-	// color := "green"
+	color := "green"
 
 	// ADD YOUR CODE BELOW:
 
-	// ?
+	color = "blue"
+	fmt.Println(color)
 }
 
 //https://github.com/inancgumus/learngo/tree/master/06-variables/04-assignment/exercises/01-make-it-blue
