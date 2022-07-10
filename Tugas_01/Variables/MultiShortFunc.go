@@ -23,9 +23,7 @@ import "fmt"
 
 func main() {
 	// ADD YOUR DECLARATIONS HERE
-	a, b := 4, 4
-	b = a
-
+	_, b := multi()
 	// THEN UNCOMMENT THE CODE BELOW
 
 	fmt.Println(b)
