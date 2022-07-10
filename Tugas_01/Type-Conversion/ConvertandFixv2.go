@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 // ---------------------------------------------------------
 // EXERCISE: Convert and Fix #2
 //
@@ -10,9 +12,9 @@ package main
 // ---------------------------------------------------------
 
 func main() {
-	// a, b := 10, 5.5
-	// a = b
-	// fmt.Println(a + b)
+	a, b := 10, 5.5
+	a = int(b)
+	fmt.Println(float64(a) + b)
 }
 
 //https://github.com/inancgumus/learngo/tree/master/06-variables/05-type-conversion/exercises/02-convert-and-fix-2
