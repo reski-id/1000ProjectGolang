@@ -21,7 +21,8 @@ func main() {
 	max := int16(1000)
 
 	// FIX THE CODE HERE
-	fmt.Println(int8(max) + min)
+	// fmt.Println(int64(max) + int64(min))
+	fmt.Println(max + int16(min))
 }
 
 //https://github.com/inancgumus/learngo/tree/master/06-variables/05-type-conversion/exercises/05-convert-and-fix-5

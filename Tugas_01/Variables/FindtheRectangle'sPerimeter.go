@@ -35,9 +35,10 @@ func main() {
 	// USE THE VARIABLES ABOVE WHEN CALCULATING YOUR RESULT
 
 	// ADD YOUR CODE BELOW
-	perimeter = (2 * width) + (2 * height)
+	perimeter = 2 * (width + height)
 
 	fmt.Println(perimeter)
+
 }
 
 //https://github.com/inancgumus/learngo/tree/master/06-variables/04-assignment/exercises/04-find-the-rectangle-perimeter
