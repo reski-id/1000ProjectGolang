@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 // ---------------------------------------------------------
 // EXERCISE: Find the Rectangle's Perimeter
 //
@@ -25,14 +27,17 @@ package main
 func main() {
 	// UNCOMMENT THE CODE BELOW:
 
-	// var (
-	// 	perimeter        int
-	// 	width, height = 5, 6
-	// )
+	var (
+		perimeter     int
+		width, height = 5, 6
+	)
 
 	// USE THE VARIABLES ABOVE WHEN CALCULATING YOUR RESULT
 
 	// ADD YOUR CODE BELOW
+	perimeter = (2 * width) + (2 * height)
+
+	fmt.Println(perimeter)
 }
 
 //https://github.com/inancgumus/learngo/tree/master/06-variables/04-assignment/exercises/04-find-the-rectangle-perimeter
