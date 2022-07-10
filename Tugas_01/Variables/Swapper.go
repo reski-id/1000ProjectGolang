@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 // ---------------------------------------------------------
 // EXERCISE: Swapper
 //
@@ -17,9 +19,11 @@ package main
 func main() {
 	// UNCOMMENT THE CODE BELOW:
 
-	// color, color2 := "red", "blue"
+	color, color2 := "red", "blue"
+	color, color2 = "orange", "green"
 
-	// ?
+	fmt.Println(color)
+	fmt.Println(color2)
 }
 
 //https://github.com/inancgumus/learngo/tree/master/06-variables/04-assignment/exercises/08-swapper
