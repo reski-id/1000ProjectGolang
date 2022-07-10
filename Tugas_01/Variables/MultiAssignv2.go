@@ -29,6 +29,7 @@ func main() {
 	)
 
 	planet, temp, isTrue = "Mars", 19.5, true
+
 	fmt.Println("Air is good on " + planet)
 	fmt.Println("It's ", isTrue)
 	fmt.Println(" It is", temp, "degrees")
