@@ -1,5 +1,10 @@
 package main
 
+import (
+	"fmt"
+	"path"
+)
+
 // ---------------------------------------------------------
 // EXERCISE: Discard The File
 //
@@ -17,7 +22,9 @@ package main
 func main() {
 	// UNCOMMENT THE CODE BELOW:
 
-	// ? ?= path.Split("secret/file.txt")
+	msg, _ := path.Split("secret/file.txt")
+	fmt.Println(msg)
+
 }
 
 //https://github.com/inancgumus/learngo/tree/master/06-variables/04-assignment/exercises/10-discard-the-file

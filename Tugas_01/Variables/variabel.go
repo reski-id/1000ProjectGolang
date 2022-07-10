@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 // ---------------------------------------------------------
 // EXERCISE: Variables To Variables
 //
@@ -30,7 +32,7 @@ package main
 func main() {
 	// UNCOMMENT THE CODE BELOW:
 
-	// color := "green"
+	color := "green"
 
 	// ADD YOUR CODE BELOW
 
@@ -38,7 +40,7 @@ func main() {
 
 	// UNCOMMENT THE CODE BELOW TO PRINT THE VARIABLE
 
-	// fmt.Println(color)
+	fmt.Println(color)
 }
 
 //https://github.com/inancgumus/learngo/tree/master/06-variables/04-assignment/exercises/02-vars-to-vars
