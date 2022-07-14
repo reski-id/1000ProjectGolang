@@ -29,3 +29,5 @@ func main() {
 }
 
 //https://github.com/inancgumus/learngo/blob/master/11-if/02-if-statement/05-challenge-userpass/01-1st-challenge/01-challenge/main.go
+
+//simple login

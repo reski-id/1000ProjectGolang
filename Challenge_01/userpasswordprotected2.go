@@ -65,3 +65,4 @@ func main() {
 }
 
 //https://github.com/inancgumus/learngo/tree/master/11-if/02-if-statement/05-challenge-userpass/02-2nd-challenge
+//multi login
