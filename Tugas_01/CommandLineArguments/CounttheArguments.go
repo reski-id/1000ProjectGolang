@@ -20,4 +20,5 @@ func main() {
 	// fmt.Printf("There are %d names.\n", count)
 }
 
+//adsd anoher update to branch
 //https://github.com/inancgumus/learngo/tree/master/06-variables/06-project-greeter/exercises/01-count-arguments
