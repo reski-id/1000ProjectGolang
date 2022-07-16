@@ -1,0 +1,14 @@
+Ambil waktu/jam komputer sekarang dengan paket time
+gunakan Switch Statemen
+
+
+waktu terdeteksi otomatis
+time.hour
+
+
+jika pagi
+	print good morning
+jika Siang
+	print good afternoon
+jika malam
+	print good night
